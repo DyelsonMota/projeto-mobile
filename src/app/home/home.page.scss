@@ -1,0 +1,12 @@
+.middle-button {
+  margin-top: 50%; /* Define uma margem superior para centralizar verticalmente */
+  transform: translateY(-50%); /* Move o botão para cima pela metade de sua altura */
+}
+
+.button-grid {
+  margin-top: 200px; /* Empurra o grid para a parte inferior */
+}
+
+ion-button {
+  margin: 5px; /* Espaçamento entre os botões */
+}

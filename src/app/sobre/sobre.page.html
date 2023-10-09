@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Sobre
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="ion-text-center">
+    <img src="assets/atendimento.png" alt="Totem" width="200">
+    <p>Nossa plataforma de autoatendimento oferece uma variedade de recursos, como a emissão de senhas para atendimento, consulta de informações relevantes e acesso a serviços essenciais.</p>
+  </div>
+
+  <ion-list>
+    <ion-item-divider>
+      <ion-label>Colaborou com o Projeto:w</ion-label>
+    </ion-item-divider>
+    <ion-item *ngFor="let aluno of alunos">
+      {{ aluno }}
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,33 @@
+Este projeto Ionic, chamado "projeto1", é um aplicativo móvel simples que consiste em três páginas principais: "Home", "Sobre" e "Alerta". O projeto é criado usando o Ionic Framework com o Angular.
+
+Passo a Passo:
+Passo 1: Configuração Inicial
+
+Criei um novo projeto Ionic chamado "projeto1" com o modelo "blank" usando o Ionic CLI.
+Use o comando ionic start projeto1 blank --type=angular para criar o projeto.
+
+Passo 2: Criação de Páginas
+Criei três páginas usando o comando ionic generate page nome-da-pagina para criar as páginas "home", "sobre" e "alerta".
+
+Passo 3: Definição de Rotas
+Configure as rotas das páginas no arquivo app-routing.module.ts para permitir a navegação entre elas.
+
+Passo 4: Lista de Alunos
+Criei uma lista de alunos em um arquivo alunos.ts dentro da pasta dados para uso na página "sobre".
+
+Passo 5: Personalização das Páginas
+Personalizei as páginas "home.page.html", "sobre.page.html" e "alerta.page.html" de acordo com as necessidades do projeto. Adicione elementos HTML e estilos conforme necessário.
+
+Passo 6: Estilização do Layout
+Adicionei classes CSS personalizadas para estilizar os elementos na página "home", centralizando o botão de alerta e alinhando os botões "Senha", "Relatório" e "Sobre".
+
+Passo 7: Inicialização do Projeto
+Iniciei o servidor de desenvolvimento com o comando ionic serve para executar o projeto e testar no navegador.
+
+Passo 8: Teste e Ajustes
+Testei o aplicativo no navegador e verifiquei se as funcionalidades e o layout estão de acordo com minhas expectativas.
+e fiz os ajustes conforme necessário para atender às minhas preferências de design e conteúdo.
+
+Conclusão:
+O projeto "projeto1" é um aplicativo simples que demonstra a criação de páginas, navegação entre elas, personalização de layout e uso de dados estáticos. 
+onde eu posso continuar expandindo o projeto adicionando mais recursos e funcionalidades conforme necessário.
